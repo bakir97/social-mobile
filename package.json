@@ -1,0 +1,53 @@
+{
+  "name": "vjezba",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "react-native run-android"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "generator-rn-toolbox": "^3.4.1",
+    "install": "^0.12.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "native-base": "^2.8.0",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-camera-roll-picker": "^1.2.3",
+    "react-native-comments": "^1.1.1",
+    "react-native-gifted-chat": "^0.4.3",
+    "react-native-image-crop-picker": "^0.21.2",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-nav": "^2.0.2",
+    "react-native-navigation": "1.1.486",
+    "react-native-slideshow": "^1.0.1",
+    "react-native-snap-carousel": "^3.7.4",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-form": "^7.4.2",
+    "redux-thunk": "^2.3.0",
+    "revalidate": "^1.2.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.6",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
